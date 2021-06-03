@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.redux_counter_container {
+  max-width: 500px;
+  width: 100%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.redux_counter_container__title {
+  padding: 10px 0;
+  color: rgb(58, 58, 58);
+}
+
+.redux_counter_container__subtitle {
+  margin-bottom: 20px;
+  color: rgb(128, 128, 128);
+}
+
+.redux_counter_container__action {
+  max-width: 100px;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.redux_counter_container__action a {
+  width: 50px;
+  text-align: center;
+  background: rgb(184, 184, 184);
+  cursor: pointer;
+  padding: 5px;
+  color: black;
+  transform: all 0.4s ease;
+  text-decoration: none;
+}
+.redux_counter_container__action a:hover {
+  background: rgb(58, 58, 58);
+  color: white;
+}
+
+.redux_container__action__input {
+  width: 40px;
+  padding: 5px;
+  border: noneyar;
+  border-top: 2px solid rgb(184, 184, 184);
+  border-bottom: 2px solid rgb(184, 184, 184);
+  outline: none;
+  text-align: center;
+}
